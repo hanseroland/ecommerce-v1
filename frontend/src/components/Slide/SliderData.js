@@ -1,0 +1,22 @@
+export const SliderData = [
+    {
+      image:
+        '../../images/alexander-rotker-l8p1aWZqHvE-unsplash.jpg'
+    },
+    {
+      image:
+        '../../images/c-d-x-PDX_a_82obo-unsplash.jpg'
+    },
+    {
+      image:
+        '../../images/charisse-kenion-dah-jZWgzx8-unsplash.jpg'
+    },
+    {
+      image:
+        '../../images/kitera-dent-brwX1UMmeEc-unsplash.jpg'
+    },
+    {
+      image:
+        '../../images/pepi-stojanovski-EF7BVa9BB2M-unsplash.jpg'
+    }
+  ];

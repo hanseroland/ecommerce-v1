@@ -1,0 +1,52 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+.App {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: 60vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide img {
+    max-width: 100%;
+    max-height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.activeSlide {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.arrow {
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.arrow svg {
+    transition: color 300ms;
+}
+
+.arrow svg:hover {
+    color: #000;
+}
+
+.next {
+    right: 5%;
+    top: 15%;
+}
+
+.prev {
+    left: 5%;
+    top: 15%;
+}

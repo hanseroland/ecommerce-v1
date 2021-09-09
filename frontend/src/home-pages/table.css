@@ -1,0 +1,23 @@
+.table-container {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+}
+
+th {
+    text-align: left;
+    padding: 6px;
+    max-width: 300px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+tbody>tr:nth-child(odd) {
+    background-color: #f0f0f0;
+}
+
+tbody>tr>td {
+    padding: 2px;
+    width: 300px;
+}
